@@ -1,4 +1,4 @@
-#button1 {
+.button1 {
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -11,10 +11,27 @@
     right: 850px;
     top: 300px;
 }
+
+.angwy {
+    background-color: brown;
+
+}
+.button2 {
+    background-color: blue;
+}
+
 body {
     display: flex;
     flex-direction: column;
 }
+.container {
+    border: 2px solid red;
+}
 #text {
     text-align: center;
 }
+#button1:active{
+    animation: pressAnimation .85ms;
+    transform: translateY(4px);
+    box-shadow: 0 15px 0 0 gray;
+} 
