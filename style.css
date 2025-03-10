@@ -1,3 +1,4 @@
+/* determines how my button looks */
 .button1 {
     border-radius: 50%;
     height: 200px;
@@ -6,32 +7,40 @@
     color: white;
     font-family: 'Times New Roman', Times, serif;
     box-shadow: 0px 15px 0px 0px grey;
-    position: absolute;
+    position: relative;
     align-items: center;
-    right: 850px;
-    top: 300px;
+    left: 850px;
+    top: 250px;
 }
-
-.angwy {
-    background-color: brown;
+/* determines how my button effect looks */
+.scared {
+    background-color: rgb(17, 0, 114);
 
 }
-.button2 {
-    background-color: blue;
-}
+/* determines how my button effect looks */
+.acceptsfate {
+    background-color: rgb(255, 217, 5);
 
-body {
+}
+/* aligns my body */
+.body {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
-.container {
-    border: 2px solid red;
-}
+/* aligns my text to the center */
 #text {
     text-align: center;
 }
+/* lets my button appear to be clickable */
 #button1:active{
     animation: pressAnimation .85ms;
     transform: translateY(4px);
     box-shadow: 0 15px 0 0 gray;
+}
+/* determines how my image looks */
+#MrC {
+    width: 20vw;
+    display: none;
 } 
